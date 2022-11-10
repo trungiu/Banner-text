@@ -70,9 +70,12 @@ a.banner-style-custom{
     text-decoration: none !important;
     outline: none !important;
 }
+.banner-btn {
+    margin: 30px;
+}
 .about.style1 .notice-bord.style1 {
     margin-top: -60px;
-    padding: 0px 30px 0px;
+    padding: -4px 30px 0px;
     }
 
 .about.style1 .notice-bord.style1 .title-2 {
@@ -132,22 +135,44 @@ h2.about.title-2{
     line-height: 1.2;
     
 }
+.col-lg-4.order-last {
+    padding: 0px 30px 30px;
+}
+.col-lg-8.about-dev 
+ {
+    padding: 0px 30px 60px;
+}
 
 
-@media only screen and (max-width: 990px) { 
-    .row{
+
+@media only screen and (max-width: 992px) { 
+    .row.about-row{
         display: flex;
         flex-direction: column-reverse;
     }
 
  }
 
-@media only screen and (max-width: 990px) {
-    .rs-about.style1 .about-part{
-        margin-top: -60px;
+@media only screen and (max-width: 992px) {
+.about.style1 .about-part{
+        margin-top: 20px !important;
         padding: 0px 30px 0px;
+
     }
 }
+
+@media only screen and (max-width: 991px){
+.banner.style .banner-content .banner-title {
+        font-size: 47px;
+
+    }
+}
+@media only screen and (max-width: 767px){
+.banner.style .banner-content .banner-title {
+        font-size: 35px;
+    }
+}
+
 
 .about.style1 .about-part {
     background: #e7f4f6;
